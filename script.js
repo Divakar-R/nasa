@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const dataContainer = document.getElementById("dataContainer");
-  const apiUrl = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY"; // NASA API
+  const apiUrl = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY";
 
   function fetchData(url) {
     return fetch(url)
